@@ -40,10 +40,21 @@ class CountryList extends Component {
           filter={ { type: 'TextFilter', delay: 1000 } }>País</TableHeaderColumn>
           <TableHeaderColumn dataField="flag" dataFormat={imageFormatter}>Bandeira</TableHeaderColumn>
         </BootstrapTable>
+        
       </div>
     );
 
     /*
+teste
+    <BootstrapTable 
+      data={this.state.teste} 
+      pagination 
+      insertRow={ true } 
+      deleteRow={ true }>
+
+    </BootstrapTable>
+
+
     return (
       <ol style={styles.list}>
         <div style={styles.header}>
